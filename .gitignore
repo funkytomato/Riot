@@ -121,8 +121,8 @@ RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Perception.cs.meta
 RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Projectile.cs
 RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Projectile.cs.meta
 RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/StandardActions.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/StandardActions/StandardInventoryActionInterface.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/StandardActions/StandardInventoryActionInterface.cs.meta
+# RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/StandardActions/StandardInventoryActionInterface.cs
+# RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/StandardActions/StandardInventoryActionInterface.cs.meta
 RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/StandardActions/StandardMotionActionInterface.cs
 RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/StandardActions/StandardMotionActionInterface.cs.meta
 RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/StandardConditions.meta
