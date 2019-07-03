@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 001aeb3efde68a04382931e17df01c51, type: 3}
+  m_Name: PriestBehaviour
+  m_EditorClassIdentifier: 
+  _json: '{"version":"1.2","nodes":[{"type":"Entry","ID":"0","rect":{"posX":"715","posY":"205","width":"150","height":"30"}},{"type":"Observer","ID":"1","functionID":"16","functionName":"MoraleFull","conditionGroup":"Resources","minTime":"0","maxTime":"0","rect":{"posX":"702.5","posY":"317.5","width":"175","height":"45"}},{"type":"Invoker","ID":"2","actionGroup":"Motion","functionID":"17","functionName":"WanderAround","executeSkill":"True","rect":{"posX":"432.5","posY":"377.5","width":"175","height":"45"}},{"type":"Observer","ID":"3","functionID":"0","functionName":"EnergyFull","conditionGroup":"Resources","minTime":"0","maxTime":"0","rect":{"posX":"702.5","posY":"427.5","width":"175","height":"45"}},{"type":"Invoker","ID":"4","actionGroup":"Skill","functionID":"Preach","functionName":"Preach","executeSkill":"True","rect":{"posX":"702.5","posY":"587.5","width":"175","height":"45"}},{"type":"Invoker","ID":"5","actionGroup":"Motion","functionID":"13","functionName":"Stand","executeSkill":"True","rect":{"posX":"702.5","posY":"507.5","width":"175","height":"45"}}],"transitions":[{"startID":"0","endID":"1","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"1","endID":"2","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"1","endID":"3","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"3","endID":"2","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"3","endID":"5","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"5","endID":"4","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}}]}'
+  _nodes:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _transitions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

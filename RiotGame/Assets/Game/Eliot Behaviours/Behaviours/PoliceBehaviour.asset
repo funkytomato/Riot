@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 001aeb3efde68a04382931e17df01c51, type: 3}
+  m_Name: PoliceBehaviour
+  m_EditorClassIdentifier: 
+  _json: '{"version":"1.2","nodes":[{"type":"Entry","ID":"0","rect":{"posX":"545","posY":"0","width":"150","height":"30"}},{"type":"Observer","ID":"1","functionID":"9","functionName":"SeeEnemy","conditionGroup":"Perception","minTime":"0","maxTime":"0","rect":{"posX":"792.5","posY":"97.5","width":"175","height":"45"}},{"type":"Invoker","ID":"2","actionGroup":"Motion","functionID":"17","functionName":"WanderAround","executeSkill":"True","rect":{"posX":"1362.5","posY":"207.5","width":"175","height":"45"}},{"type":"Invoker","ID":"3","actionGroup":"Motion","functionID":"6","functionName":"LookAtTarget","executeSkill":"True","rect":{"posX":"592.5","posY":"567.5","width":"175","height":"45"}},{"type":"Invoker","ID":"4","actionGroup":"Skill","functionID":"PunchRightHand","functionName":"PunchRightHand","executeSkill":"True","rect":{"posX":"642.5","posY":"737.5","width":"175","height":"45"}},{"type":"Observer","ID":"5","functionID":"28","functionName":"TargetInSkillRange","conditionGroup":"Perception","minTime":"0","maxTime":"0","rect":{"posX":"722.5","posY":"487.5","width":"175","height":"45"}},{"type":"Observer","ID":"6","functionID":"2","functionName":"EnergyLow","conditionGroup":"Resources","minTime":"0","maxTime":"0","rect":{"posX":"712.5","posY":"347.5","width":"175","height":"45"}},{"type":"Invoker","ID":"7","actionGroup":"Skill","functionID":"PunchLeftHand","functionName":"PunchLeftHand","executeSkill":"True","rect":{"posX":"842.5","posY":"737.5","width":"175","height":"45"}},{"type":"Observer","ID":"8","functionID":"2","functionName":"EnemyIsLoadingAttack","conditionGroup":"Perception","minTime":"0","maxTime":"0","rect":{"posX":"842.5","posY":"627.5","width":"175","height":"45"}},{"type":"Invoker","ID":"9","actionGroup":"Motion","functionID":"6","functionName":"LookAtTarget","executeSkill":"True","rect":{"posX":"842.5","posY":"557.5","width":"175","height":"45"}},{"type":"Invoker","ID":"10","actionGroup":"Motion","functionID":"16","functionName":"WalkToTarget","executeSkill":"True","rect":{"posX":"592.5","posY":"647.5","width":"175","height":"45"}},{"type":"Observer","ID":"11","functionID":"37","functionName":"TargetWeakestEnemy","conditionGroup":"Perception","minTime":"0","maxTime":"0","rect":{"posX":"592.5","posY":"417.5","width":"175","height":"45"}},{"type":"Observer","ID":"12","functionID":"18","functionName":"MoraleLow","conditionGroup":"Resources","minTime":"0","maxTime":"0","rect":{"posX":"322.5","posY":"97.5","width":"175","height":"45"}},{"type":"Invoker","ID":"13","actionGroup":"Motion","functionID":"13","functionName":"Stand","executeSkill":"True","rect":{"posX":"922.5","posY":"347.5","width":"175","height":"45"}},{"type":"Observer","ID":"14","functionID":"7","functionName":"StatusFighting","conditionGroup":"General","minTime":"0","maxTime":"0","rect":{"posX":"532.5","posY":"97.5","width":"175","height":"45"}},{"type":"Invoker","ID":"15","actionGroup":"Motion","functionID":"6","functionName":"LookAtTarget","executeSkill":"True","rect":{"posX":"82.5","posY":"97.5","width":"175","height":"45"}},{"type":"Invoker","ID":"16","actionGroup":"Skill","functionID":"PunchLeftHand","functionName":"PunchLeftHand","executeSkill":"True","rect":{"posX":"182.5","posY":"197.5","width":"175","height":"45"}},{"type":"Invoker","ID":"17","actionGroup":"Skill","functionID":"PunchRightHand","functionName":"PunchRightHand","executeSkill":"True","rect":{"posX":"0","posY":"197.5","width":"175","height":"45"}},{"type":"Observer","ID":"18","functionID":"8","functionName":"HealthLow","conditionGroup":"Resources","minTime":"0","maxTime":"0","rect":{"posX":"792.5","posY":"267.5","width":"175","height":"45"}},{"type":"Observer","ID":"19","functionID":"18","functionName":"MoraleLow","conditionGroup":"Resources","minTime":"0","maxTime":"0","rect":{"posX":"792.5","posY":"197.5","width":"175","height":"45"}},{"type":"Invoker","ID":"20","actionGroup":"Motion","functionID":"10","functionName":"RunAway","executeSkill":"True","rect":{"posX":"552.5","posY":"197.5","width":"175","height":"45"}},{"type":"Observer","ID":"21","functionID":"30","functionName":"TargetIsFighting","conditionGroup":"Perception","minTime":"0","maxTime":"0","rect":{"posX":"1082.5","posY":"487.5","width":"175","height":"45"}},{"type":"Observer","ID":"22","functionID":"11","functionName":"SeeFriend","conditionGroup":"Perception","minTime":"0","maxTime":"0","rect":{"posX":"1082.5","posY":"97.5","width":"175","height":"45"}},{"type":"Observer","ID":"23","functionID":"30","functionName":"TargetIsFighting","conditionGroup":"Perception","minTime":"0","maxTime":"0","rect":{"posX":"942.5","posY":"147.5","width":"175","height":"45"}}],"transitions":[{"startID":"0","endID":"14","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"1","endID":"22","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"1","endID":"23","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"3","endID":"10","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"5","endID":"3","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"5","endID":"9","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"6","endID":"11","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"6","endID":"13","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"8","endID":"4","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"True","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"8","endID":"7","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"9","endID":"8","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"11","endID":"5","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"12","endID":"15","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"12","endID":"20","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"14","endID":"12","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"14","endID":"1","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"15","endID":"16","type":"positive","minRate":"0","maxRate":"1","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"15","endID":"17","type":"positive","minRate":"0","maxRate":"1","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"18","endID":"6","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"18","endID":"13","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"19","endID":"20","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"19","endID":"18","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"21","endID":"2","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"21","endID":"5","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"22","endID":"21","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"22","endID":"2","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"23","endID":"19","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"23","endID":"2","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}}]}'
+  _nodes:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _transitions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

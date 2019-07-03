@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 001aeb3efde68a04382931e17df01c51, type: 3}
+  m_Name: DoctorBehaviour
+  m_EditorClassIdentifier: 
+  _json: '{"version":"1.2","nodes":[{"type":"Entry","ID":"0","rect":{"posX":"425","posY":"205","width":"150","height":"30"}},{"type":"Invoker","ID":"1","actionGroup":"Motion","functionID":"6","functionName":"LookAtTarget","executeSkill":"True","rect":{"posX":"412.5","posY":"497.5","width":"175","height":"45"}},{"type":"Invoker","ID":"2","actionGroup":"Skill","functionID":"Heal","functionName":"Heal","executeSkill":"True","rect":{"posX":"412.5","posY":"657.5","width":"175","height":"45"}},{"type":"Invoker","ID":"3","actionGroup":"Motion","functionID":"17","functionName":"WanderAround","executeSkill":"True","rect":{"posX":"162.5","posY":"327.5","width":"175","height":"45"}},{"type":"Observer","ID":"4","functionID":"21","functionName":"TargetHasLowHealth","conditionGroup":"Perception","minTime":"0","maxTime":"0","rect":{"posX":"412.5","posY":"347.5","width":"175","height":"45"}},{"type":"Invoker","ID":"5","actionGroup":"Motion","functionID":"16","functionName":"WalkToTarget","executeSkill":"True","rect":{"posX":"192.5","posY":"497.5","width":"175","height":"45"}},{"type":"Observer","ID":"6","functionID":"28","functionName":"TargetInSkillRange","conditionGroup":"Perception","minTime":"0","maxTime":"0","rect":{"posX":"412.5","posY":"417.5","width":"175","height":"45"}},{"type":"Observer","ID":"7","functionID":"5","functionName":"EnoughEnergyForSkill","conditionGroup":"Resources","minTime":"0","maxTime":"0","rect":{"posX":"412.5","posY":"277.5","width":"175","height":"45"}},{"type":"Invoker","ID":"8","actionGroup":"Motion","functionID":"13","functionName":"Stand","executeSkill":"True","rect":{"posX":"412.5","posY":"577.5","width":"175","height":"45"}}],"transitions":[{"startID":"0","endID":"7","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"1","endID":"8","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}},{"startID":"4","endID":"3","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"4","endID":"6","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"6","endID":"5","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"6","endID":"1","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"7","endID":"4","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.2","g":"0.8","b":"0.1"}},{"startID":"7","endID":"3","type":"negative","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"0.8","g":"0.3","b":"0.2"}},{"startID":"8","endID":"2","type":"positive","minRate":"0","maxRate":"0","minCooldown":"0","maxCooldown":"0","terminate":"False","color":{"r":"1","g":"1","b":"1"}}]}'
+  _nodes:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _transitions:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
