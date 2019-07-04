@@ -132,10 +132,11 @@ namespace Eliot.Environment
 			transform.localPosition = Vector3.zero;
 		}
 
-		/// <summary>
-		/// Drop Item from Inventory if it currently is in one.
-		/// </summary>
-		public void GetDropped(float dropRadius)
+
+        /// <summary>
+        /// Drop Item from Inventory if it currently is in one.
+        /// </summary>
+        public void GetDropped(float dropRadius)
 		{
 			if (!_isInInventory) return;
 			gameObject.SetActive(true);
@@ -156,10 +157,32 @@ namespace Eliot.Environment
 			agent.AddEffect(_skill, agent);
 			_amount--;
 			if (_amount > 0) return;
-			GetDropped(agent.Inventory.DropRadius);
-			Destroy(gameObject);
+			//GetDropped(agent.Inventory.DropRadius);
+			//Destroy(gameObject);
+
+            
 		}
 
+
+        /// <summary>
+        /// Apply the skill held by this Item to an Agent.
+        /// </summary>
+        /// <param name="agent"></param>
+        public void UseProjectile(Agent agent)
+        {
+            if (!_skill) return;
+            //agent.AddEffect(_skill, agent);
+
+            //Reduce the number of projectiles
+            _amount--;
+            if (_amount > 0) return;
+            _currentInventory.DropItem(this);
+            GetDropped(agent.Inventory.DropRadius);
+            Destroy(gameObject);
+
+            //Remove throw behaviour when projectiles have run out
+            Unwield(agent);
+        }
 
         /// <summary>
         /// Make an Agent wield the Item. May lead to changes in Agent's cofiguration.
@@ -187,24 +210,6 @@ namespace Eliot.Environment
 				agent.GetAudioSource().clip = _wieldSound;
 				agent.GetAudioSource().Play();
 			}
-
-            //Use 
-            if (!_skill) return;
-            //agent.AddEffect(_skill, agent);
-            _amount--;
-            if (_amount > 0) return;
-
-            //Get dropped function
-            if (!_isInInventory) return;
-            gameObject.SetActive(true);
-            _isInInventory = false;
-            _currentInventory = null;
-
-            Destroy(gameObject);
-
-            
-
-            //Unwield(agent);
         }
 
 		/// <summary>
@@ -225,6 +230,7 @@ namespace Eliot.Environment
 			
 			agent.ResetGraphics();
 
+            //Reset to previous behaviour
             agent.SetBehaviour(_previousBehaviour);
 		}
 	}

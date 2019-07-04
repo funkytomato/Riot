@@ -44,37 +44,31 @@ namespace Eliot.AgentComponents
         /// </summary>
         [IncludeInBehaviour] public void WieldBestProjectile()
         {
-            //_inventory.BestProjectile().Throw(_agent);
-            Item bestProjectile = null;
-            for (var i = 0; i < _inventory.Items.Count; i++)
-            {
-                var item = _inventory.Items[i];
-                if (item.Type == ItemType.Projectile && item.Amount > 0)
-                {
-                    bestProjectile = item;
-                }
-                else
-                {
-                    
-                    //item.Unwield(_agent);
-                    //Need to change behaviour ack to none throwing one
-                }
-
-                if (bestProjectile != null)
-                {
-                   
-                    //bestProjectile.DecrementAmount();
-                    //bestProjectile.Use(_agent);
-                    _inventory.BestProjectile().Wield(_agent);
-                }
-
-            }
+            _inventory.BestProjectile().Wield(_agent);
         }
 
         /// <summary>
         /// Find the worst item in Inventory and drop it.
         /// </summary>
         [IncludeInBehaviour] public void DropWorstItem() { _inventory.DropWorstItem(); }
+
+
+        /// <summary>
+        /// Try to find a projectile in the Inventory and use it.
+        /// </summary>
+        [IncludeInBehaviour]
+        public void UseBestProjectile()
+        {
+            Item bestProjectile = null;
+            for (var i = 0; i < _inventory.Items.Count; i++)
+            {
+                var item = _inventory.Items[i];
+                if (item.Type == ItemType.Projectile && item.Skill && item.Amount > 0 && item.Value > (bestProjectile == null ? -10000 : bestProjectile.Value))
+                    bestProjectile = item;
+            }
+            if (bestProjectile != null)
+                bestProjectile.UseProjectile(_agent);
+        }
 
 
         /// <summary>

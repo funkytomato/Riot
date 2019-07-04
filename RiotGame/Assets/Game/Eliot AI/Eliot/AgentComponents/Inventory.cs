@@ -187,7 +187,7 @@ namespace Eliot.AgentComponents
             var index = 0;
             for (var i = 0; i < _items.Count; i++)
             {
-                if (_items[i].Type == ItemType.Projectile && _items[i].Value > maxValue && Items[i].Amount > 0)
+                if (_items[i].Type == ItemType.Projectile && _items[i].Value > maxValue /*&& Items[i].Amount > 0*/)
                 {
                     maxValue = _items[i].Value;
                     index = i;
@@ -208,7 +208,7 @@ namespace Eliot.AgentComponents
 			item.GetDropped(_dropRadius);
 			if(WieldedItem == item)
 				item.Unwield(_agent);
-		}
+        }
 		
 		/// <summary>
 		/// Find the worst Item and drop it.

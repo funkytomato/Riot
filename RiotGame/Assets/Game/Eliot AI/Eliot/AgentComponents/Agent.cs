@@ -418,7 +418,7 @@ namespace Eliot.AgentComponents
 		/// <param name="skill"></param>
 		public void AddSkill(Skill skill)
 		{
-			if (!_skills.Contains(skill))
+            if (!_skills.Contains(skill))
 				_skills.Add(skill.Clone().Init(GetComponent<Agent>(), gameObject));
 			if (!_usableSkills.Contains(skill))
 				_usableSkills.Add(skill.Clone().Init(GetComponent<Agent>(), gameObject));
