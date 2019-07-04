@@ -54,7 +54,7 @@ MonoBehaviour:
   _executingAnimation: {fileID: 0}
   _loadingMessage: Throw
   _executingMessage: 
-  _onApplyFX: {fileID: 0}
+  _onApplyFX: {fileID: 100002, guid: 2ba9ef067d14f12478dc4de6baf23094, type: 3}
   _onApplyFXOnTarget: {fileID: 0}
   _makeChildOfTarget: 0
   _onApplyMessageToTarget: 
