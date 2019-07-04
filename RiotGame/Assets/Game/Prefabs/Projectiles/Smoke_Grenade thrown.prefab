@@ -107,7 +107,7 @@ MonoBehaviour:
   _sendDamageMessage: 1
   _damageMethodName: TakeDamage
   _messages: []
-  _skill: {fileID: 0}
+  _skill: {fileID: 11400000, guid: 2dea81f8814f0481bbca180d75f686be, type: 2}
 --- !u!1 &4565559350033627225
 GameObject:
   m_ObjectHideFlags: 0
