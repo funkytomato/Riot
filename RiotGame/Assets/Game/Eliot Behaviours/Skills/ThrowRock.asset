@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d528dce79e9ecb743b09111f1f72f5ff, type: 3}
+  m_Name: ThrowRock
+  m_EditorClassIdentifier: 
+  _interruptible: 0
+  _canStack: 0
+  _canAffectEnemies: 1
+  _canAffectFriends: 1
+  _initSkillBy: 1
+  _projectilePrefab: {fileID: 7403553653705959382, guid: af2ced1365d5f4f5cb6ed65f130a057d,
+    type: 3}
+  _range: 5
+  _fieldOfView: 0
+  _loadTime: 0.5
+  _invocationDuration: 0
+  _invocationPing: 0
+  _effectDuration: 0
+  _effectPing: 0
+  _coolDown: 3
+  _minPower: 10
+  _maxPower: 10
+  _energyCost: 5
+  _pushPower: 1
+  _interruptTarget: 1
+  _freezeMotion: 1
+  _affectHealth: 1
+  _healthAffectionWay: 1
+  _affectEnergy: 0
+  _energyAffectionWay: 0
+  _affectIntoxication: 0
+  _intoxicationAffectionWay: 0
+  _affectMorale: 1
+  _moraleAffectionWay: 1
+  _affectTemperament: 1
+  _temperamentAffectionWay: 0
+  _setStatus: 1
+  _status: 8
+  _statusDuration: 1
+  _setPositionAsTarget: 0
+  _makeNoise: 0
+  _noiseDuration: 0
+  _additionalEffects: []
+  _loadingAnimation: {fileID: 0}
+  _executingAnimation: {fileID: 0}
+  _loadingMessage: Throw
+  _executingMessage: 
+  _onApplyFX: {fileID: 0}
+  _onApplyFXOnTarget: {fileID: 100024, guid: de670bf93ae4bb04bbfb3e04751e679d, type: 3}
+  _makeChildOfTarget: 0
+  _onApplyMessageToTarget: 
+  _passPowerToTarget: 0
+  _onApplyMessageToCaster: 
+  _loadingSkillSounds:
+  - {fileID: 8300000, guid: 911a3dfa347f045a6be78c38e01b0d87, type: 3}
+  _executingSkillSounds: []
