@@ -11,27 +11,22 @@ using Pathfinding.RVO;
  */
 public class MovementAnimationScript : MonoBehaviour
 {
-    public GameObject cloneObject;
+    //private GameObject cloneObject;
     private AIPath aiPath;
     private Animator animator;
 
     // Start is called before the first frame update
     void Start()
     {
-        if (cloneObject != null) 
+        aiPath = GetComponent<AIPath>();
+
+
+        if (aiPath == null)
         {
-            aiPath = GetComponent<AIPath>();
-            
+            Debug.Log("AIPath is not set.  Probably missing from project");
         }
-        else
-        {
-            Debug.Log("CivilianAnimationComponent CloneObject not set");
-        }
-
-
-        animator = cloneObject.GetComponent<Animator>();
-
     }
+
 
     // Update is called once per frame
     void Update()
@@ -42,7 +37,7 @@ public class MovementAnimationScript : MonoBehaviour
 
     private void FixedUpdate()
     {
-        //animator = cloneObject.GetComponent<Animator>();
+
         animator = gameObject.GetComponentInChildren<Animator>();
 
         if (animator != null)
