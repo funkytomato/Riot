@@ -42,6 +42,9 @@ public class MovementAnimationScript : MonoBehaviour
 
     private void FixedUpdate()
     {
+        //animator = cloneObject.GetComponent<Animator>();
+        animator = gameObject.GetComponentInChildren<Animator>();
+
         if (animator != null)
         {
             Vector3 velocity;
