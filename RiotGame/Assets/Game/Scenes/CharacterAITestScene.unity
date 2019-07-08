@@ -16388,7 +16388,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf32cec2119bc4d78a9e6984c085e640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cloneObject: {fileID: 853593667}
 --- !u!1 &1500295204
 GameObject:
   m_ObjectHideFlags: 0
@@ -20537,7 +20536,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf32cec2119bc4d78a9e6984c085e640, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cloneObject: {fileID: 2130485345}
 --- !u!114 &1886566450
 MonoBehaviour:
   m_ObjectHideFlags: 0
