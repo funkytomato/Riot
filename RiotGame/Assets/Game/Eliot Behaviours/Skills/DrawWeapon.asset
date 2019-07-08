@@ -10,29 +10,29 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d528dce79e9ecb743b09111f1f72f5ff, type: 3}
-  m_Name: Heal
+  m_Name: DrawWeapon
   m_EditorClassIdentifier: 
   _interruptible: 0
   _canStack: 0
-  _canAffectEnemies: 1
-  _canAffectFriends: 1
-  _initSkillBy: 3
+  _canAffectEnemies: 0
+  _canAffectFriends: 0
+  _initSkillBy: 2
   _projectilePrefab: {fileID: 0}
-  _range: 1
+  _range: 0
   _fieldOfView: 0
-  _loadTime: 0.5
+  _loadTime: 0
   _invocationDuration: 0
   _invocationPing: 0
-  _effectDuration: 2
-  _effectPing: 2
-  _coolDown: 0.5
-  _minPower: 10
-  _maxPower: 100
-  _energyCost: 20
+  _effectDuration: 0
+  _effectPing: 0
+  _coolDown: 0
+  _minPower: 0
+  _maxPower: 0
+  _energyCost: 0
   _pushPower: 0
-  _interruptTarget: 1
-  _freezeMotion: 1
-  _affectHealth: 1
+  _interruptTarget: 0
+  _freezeMotion: 0
+  _affectHealth: 0
   _healthAffectionWay: 0
   _affectEnergy: 0
   _energyAffectionWay: 0
@@ -42,24 +42,22 @@ MonoBehaviour:
   _moraleAffectionWay: 0
   _affectTemperament: 0
   _temperamentAffectionWay: 0
-  _setStatus: 1
-  _status: 6
-  _statusDuration: 2
+  _setStatus: 0
+  _status: 0
+  _statusDuration: 0
   _setPositionAsTarget: 0
   _makeNoise: 0
   _noiseDuration: 0
   _additionalEffects: []
   _loadingAnimation: {fileID: 0}
   _executingAnimation: {fileID: 0}
-  _loadingMessage: Give
+  _loadingMessage: DrawWeapon
   _executingMessage: 
   _onApplyFX: {fileID: 0}
-  _onApplyFXOnTarget: {fileID: 1179906630267414, guid: a97ffe8d0999bf3418de182bcef82cdf,
-    type: 3}
+  _onApplyFXOnTarget: {fileID: 0}
   _makeChildOfTarget: 0
-  _onApplyMessageToTarget: Give
+  _onApplyMessageToTarget: 
   _passPowerToTarget: 0
   _onApplyMessageToCaster: 
-  _loadingSkillSounds:
-  - {fileID: 8300000, guid: ae33835ea1f44484fa7fb53db292eb6d, type: 3}
+  _loadingSkillSounds: []
   _executingSkillSounds: []
