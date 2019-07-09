@@ -20,7 +20,7 @@ MonoBehaviour:
   _projectilePrefab: {fileID: 0}
   _range: 3
   _fieldOfView: 0
-  _loadTime: 0
+  _loadTime: 1
   _invocationDuration: 0
   _invocationPing: 0
   _effectDuration: 0
@@ -29,9 +29,9 @@ MonoBehaviour:
   _minPower: 10
   _maxPower: 20
   _energyCost: 0
-  _pushPower: 10
-  _interruptTarget: 0
-  _freezeMotion: 0
+  _pushPower: 0.5
+  _interruptTarget: 1
+  _freezeMotion: 1
   _affectHealth: 1
   _healthAffectionWay: 1
   _affectEnergy: 0
