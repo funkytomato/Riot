@@ -21,7 +21,7 @@ MonoBehaviour:
     type: 3}
   _range: 5
   _fieldOfView: 0
-  _loadTime: 0.5
+  _loadTime: 0
   _invocationDuration: 0
   _invocationPing: 0
   _effectDuration: 0
