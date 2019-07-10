@@ -30,7 +30,7 @@ MonoBehaviour:
   _maxPower: 10
   _energyCost: 5
   _pushPower: 0.3
-  _interruptTarget: 1
+  _interruptTarget: 0
   _freezeMotion: 0
   _affectHealth: 1
   _healthAffectionWay: 1

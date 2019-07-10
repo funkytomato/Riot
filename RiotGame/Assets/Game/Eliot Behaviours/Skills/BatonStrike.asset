@@ -12,24 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d528dce79e9ecb743b09111f1f72f5ff, type: 3}
   m_Name: BatonStrike
   m_EditorClassIdentifier: 
-  _interruptible: 1
+  _interruptible: 0
   _canStack: 0
   _canAffectEnemies: 1
   _canAffectFriends: 0
   _initSkillBy: 0
   _projectilePrefab: {fileID: 0}
-  _range: 3
+  _range: 2
   _fieldOfView: 0
   _loadTime: 1
   _invocationDuration: 0
   _invocationPing: 0
   _effectDuration: 0
   _effectPing: 0
-  _coolDown: 0.2
+  _coolDown: 0.5
   _minPower: 10
   _maxPower: 20
-  _energyCost: 0
-  _pushPower: 0.5
+  _energyCost: 10
+  _pushPower: 0.6
   _interruptTarget: 1
   _freezeMotion: 1
   _affectHealth: 1

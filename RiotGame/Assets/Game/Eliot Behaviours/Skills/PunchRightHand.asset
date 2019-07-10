@@ -28,7 +28,7 @@ MonoBehaviour:
   _coolDown: 0.3
   _minPower: 5
   _maxPower: 10
-  _energyCost: 10
+  _energyCost: 5
   _pushPower: 0.3
   _interruptTarget: 0
   _freezeMotion: 0
