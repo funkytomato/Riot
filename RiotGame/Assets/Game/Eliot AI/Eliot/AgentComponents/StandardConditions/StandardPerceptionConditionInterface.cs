@@ -392,6 +392,7 @@ namespace Eliot.AgentComponents
         {
             return _perception.SeeUnit(unit => unit && unit.Type == Environment.UnitType.Item
                                               && unit.GetComponent<Item>().Type == ItemType.Weapon
+                                              && unit.Team == _agent.Unit.Team
                                               && _agent.Inventory.ItemIsBetterThanCurrent(unit.GetComponent<Item>()));
         }
 
