@@ -18,7 +18,7 @@ MonoBehaviour:
   _canAffectFriends: 0
   _initSkillBy: 0
   _projectilePrefab: {fileID: 0}
-  _range: 2
+  _range: 1.5
   _fieldOfView: 0
   _loadTime: 1
   _invocationDuration: 0
@@ -56,7 +56,7 @@ MonoBehaviour:
   _onApplyFX: {fileID: 0}
   _onApplyFXOnTarget: {fileID: 1433223395096936, guid: 9c96429adeffbf7498697f7a15749f0e,
     type: 3}
-  _makeChildOfTarget: 0
+  _makeChildOfTarget: 1
   _onApplyMessageToTarget: 
   _passPowerToTarget: 0
   _onApplyMessageToCaster: 

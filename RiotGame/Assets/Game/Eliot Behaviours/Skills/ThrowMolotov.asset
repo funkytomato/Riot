@@ -17,9 +17,9 @@ MonoBehaviour:
   _canAffectEnemies: 1
   _canAffectFriends: 1
   _initSkillBy: 1
-  _projectilePrefab: {fileID: 6541598486945243373, guid: 791f6a85d00a4456da53c34418587c7e,
+  _projectilePrefab: {fileID: 6541598486945243373, guid: 208c73256b6604fe8a4e8bad47489638,
     type: 3}
-  _range: 10
+  _range: 8
   _fieldOfView: 0
   _loadTime: 1
   _invocationDuration: 0

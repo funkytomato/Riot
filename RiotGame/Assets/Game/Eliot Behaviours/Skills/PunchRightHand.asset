@@ -59,6 +59,6 @@ MonoBehaviour:
   _onApplyMessageToTarget: TakeDamage
   _passPowerToTarget: 0
   _onApplyMessageToCaster: 
-  _loadingSkillSounds:
-  - {fileID: 8300000, guid: 7e2359504ae4b4dca9adc112e7fc9098, type: 3}
-  _executingSkillSounds: []
+  _loadingSkillSounds: []
+  _executingSkillSounds:
+  - {fileID: 8300000, guid: 8bd5c5febe65443ffaf6b3815c69151f, type: 3}
