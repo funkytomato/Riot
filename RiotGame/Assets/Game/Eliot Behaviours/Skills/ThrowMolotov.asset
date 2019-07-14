@@ -19,7 +19,7 @@ MonoBehaviour:
   _initSkillBy: 1
   _projectilePrefab: {fileID: 6541598486945243373, guid: 208c73256b6604fe8a4e8bad47489638,
     type: 3}
-  _range: 8
+  _range: 10
   _fieldOfView: 0
   _loadTime: 1
   _invocationDuration: 0
