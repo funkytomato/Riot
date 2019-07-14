@@ -211,7 +211,7 @@ MonoBehaviour:
   _detachChildren: 0
   _destroyOnAnyCollision: 0
   _sendDamageMessage: 1
-  _damageMethodName: Damage
+  _damageMethodName: TakeDamage
   _messages: []
   _skill: {fileID: 0}
 --- !u!114 &1456688742718530871

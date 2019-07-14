@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2716610038863244777}
   - component: {fileID: 7403553653705959382}
   m_Layer: 0
-  m_Name: Stone_Thrown
+  m_Name: Stone_Projectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -149,6 +149,6 @@ MonoBehaviour:
   _detachChildren: 0
   _destroyOnAnyCollision: 0
   _sendDamageMessage: 1
-  _damageMethodName: Damage
+  _damageMethodName: TakeDamage
   _messages: []
   _skill: {fileID: 11400000, guid: 146cb937a9948470f85a64a79b228030, type: 2}

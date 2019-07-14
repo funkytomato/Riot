@@ -146,7 +146,7 @@ MonoBehaviour:
   _addSkills:
   - {fileID: 11400000, guid: f1175f889c5ea489d972fcf3e41c7b16, type: 2}
   _newGraphics: {fileID: 0}
-  _wieldSound: {fileID: 8300000, guid: 911a3dfa347f045a6be78c38e01b0d87, type: 3}
+  _wieldSound: {fileID: 0}
   _unwieldSound: {fileID: 0}
   _useSound: {fileID: 0}
 --- !u!1 &69197002254850669
