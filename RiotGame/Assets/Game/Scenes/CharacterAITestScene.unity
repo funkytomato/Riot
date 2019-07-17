@@ -2435,7 +2435,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 69197002179932641, guid: e21d6e826fe8c471799ad0e245dad4b1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 69197002179932641, guid: e21d6e826fe8c471799ad0e245dad4b1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e21d6e826fe8c471799ad0e245dad4b1, type: 3}
 --- !u!1 &297783912
 GameObject:
@@ -4369,7 +4375,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 69197002179932641, guid: e21d6e826fe8c471799ad0e245dad4b1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 69197002179932641, guid: e21d6e826fe8c471799ad0e245dad4b1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e21d6e826fe8c471799ad0e245dad4b1, type: 3}
 --- !u!1 &534567826
 GameObject:
@@ -7802,7 +7814,7 @@ GameObject:
   - component: {fileID: 811906115}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17541,7 +17553,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 69197002179932641, guid: e21d6e826fe8c471799ad0e245dad4b1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 69197002179932641, guid: e21d6e826fe8c471799ad0e245dad4b1, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e21d6e826fe8c471799ad0e245dad4b1, type: 3}
 --- !u!1 &1578429042
 GameObject:
@@ -23395,7 +23413,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2079767866}
   m_LocalRotation: {x: -0, y: 0.98195875, z: -0.18909544, w: 0}
-  m_LocalPosition: {x: -9.39, y: 3.08, z: 10.54}
+  m_LocalPosition: {x: 3.13, y: 8.72, z: 24.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ClingPoint
   - RightHand
+  - Terrain
   layers:
   - Default
   - TransparentFX

@@ -17,11 +17,11 @@ MonoBehaviour:
   _canAffectEnemies: 1
   _canAffectFriends: 1
   _initSkillBy: 1
-  _projectilePrefab: {fileID: 6541598486945243373, guid: 208c73256b6604fe8a4e8bad47489638,
+  _projectilePrefab: {fileID: 599226255310540717, guid: 208c73256b6604fe8a4e8bad47489638,
     type: 3}
   _range: 10
   _fieldOfView: 0
-  _loadTime: 1
+  _loadTime: 0
   _invocationDuration: 0
   _invocationPing: 0
   _effectDuration: 0
@@ -55,11 +55,10 @@ MonoBehaviour:
   _loadingMessage: Throw
   _executingMessage: 
   _onApplyFX: {fileID: 0}
-  _onApplyFXOnTarget: {fileID: 114954, guid: f7358320598c4a3419cb533d8da4c32e, type: 3}
+  _onApplyFXOnTarget: {fileID: 117628, guid: 1c6cf70a4666e5a40ba4bafbc8947b6a, type: 3}
   _makeChildOfTarget: 1
-  _onApplyMessageToTarget: OnFire
+  _onApplyMessageToTarget: TakeDamage
   _passPowerToTarget: 0
   _onApplyMessageToCaster: 
-  _loadingSkillSounds:
-  - {fileID: 8300000, guid: 911a3dfa347f045a6be78c38e01b0d87, type: 3}
+  _loadingSkillSounds: []
   _executingSkillSounds: []
