@@ -54,426 +54,428 @@ RiotGame/Assets/_TerrainAutoUpgrade/layer_Terrain GreenTerrain Normal(15.000,15.
 RiotGame/Assets/_TerrainAutoUpgrade/layer_Terrain GreenTerrain Normal(15.000,15.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer.meta
 RiotGame/Assets/_TerrainAutoUpgrade/layer_Tiles_1A(2.000,2.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
 RiotGame/Assets/_TerrainAutoUpgrade/layer_Tiles_1A(2.000,2.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer.meta
-RiotGame/Assets/Game/Eliot AI/Eliot.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/ActionInterfaces.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/ActionInterfaces/InventoryActionInterface.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/ActionInterfaces/InventoryActionInterface.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/ActionInterfaces/MotionActionInterface.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/ActionInterfaces/MotionActionInterface.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/AgentAnimation.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/AgentAnimation.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/AgentFunctions.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/AgentFunctions.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/AnimatorParameters.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/AnimatorParameters.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces/GeneralConditionInterface.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces/GeneralConditionInterface.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces/InventoryConditionInterface.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces/InventoryConditionInterface.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces/MotionConditionInterface.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces/MotionConditionInterface.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces/PerceptionConditionInterface.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces/PerceptionConditionInterface.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces/ResourcesConditionInterface.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces/ResourcesConditionInterface.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Death.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Death.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Editor.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Enums.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Enums/AnimationMode.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Enums/AnimationMode.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Enums/AnimationState.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Enums/AnimationState.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Enums/InitSkillBy.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Enums/InitSkillBy.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Enums/MotionEngine.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Enums/MotionEngine.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Enums/MotionState.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Enums/MotionState.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Enums/SkillState.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Enums/SkillState.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/IMotionEngine.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/IMotionEngine.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/IncludeInBehaviour.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/IncludeInBehaviour.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Interfaces.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Interfaces/ActionInterface.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Interfaces/ActionInterface.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Interfaces/ConditionInterface.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Interfaces/ConditionInterface.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/LegacyAnimationClips.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/LegacyAnimationClips.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Memory.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Memory.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Motion.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Motion.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/MotionEngines.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/MotionEngines/AstarMotionEngine.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/MotionEngines/AstarMotionEngine.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/MotionEngines/NavMeshMotionEngine.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/MotionEngines/NavMeshMotionEngine.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/MotionEngines/TurretMotionEngine.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/MotionEngines/TurretMotionEngine.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Perception.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Perception.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Projectile.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/Projectile.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/StandardActions.meta
-# RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/StandardActions/StandardInventoryActionInterface.cs
-# RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/StandardActions/StandardInventoryActionInterface.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/StandardActions/StandardMotionActionInterface.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/StandardActions/StandardMotionActionInterface.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/StandardConditions.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/StandardConditions/StandardMotionConditionInterface.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/AgentComponents/StandardConditions/StandardMotionConditionInterface.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/BehaviourEditorWindow.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/BehaviourEditorWindow.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/Editor.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/Editor/BehaviourEditor.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/Editor/BehaviourEditor.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/Editor/InvokerNodeEditor.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/Editor/InvokerNodeEditor.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/Editor/LoopNodeEditor.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/Editor/LoopNodeEditor.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/Editor/ObserverNodeEditor.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/Editor/ObserverNodeEditor.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/EliotBehaviour.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/EliotBehaviour.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/EntryNode.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/EntryNode.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/Enums.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/Enums/ActionGroup.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/Enums/ActionGroup.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/Enums/ConditionGroup.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/Enums/ConditionGroup.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/EntryWindowStyle.guiskin
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/EntryWindowStyle.guiskin.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/InvokerWindowStyle.guiskin
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/InvokerWindowStyle.guiskin.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/LoopWindowStyle.guiskin
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/LoopWindowStyle.guiskin.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/ObserverWindowStyle.guiskin
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/ObserverWindowStyle.guiskin.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Style.guiskin
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Style.guiskin.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/box.png
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/box.png.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/gamepad.png
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/gamepad.png.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/gamepad_grey.png
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/gamepad_grey.png.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/grid.png
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/grid.png.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/logo_main.png
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/logo_main.png.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/rect.png
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/rect.png.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/rectSelected.png
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/rectSelected.png.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/romb.png
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/romb.png.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/rombSelected.png
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/rombSelected.png.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/spellbook.png
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/spellbook.png.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/InvokerNode.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/InvokerNode.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/LoopNode.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/LoopNode.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/Node.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/Node.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/NodesTransition.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/NodesTransition.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/ObserverNode.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEditor/ObserverNode.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEngine.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEngine/BehaviourCore.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEngine/BehaviourCore.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEngine/EliotComponent.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEngine/EliotComponent.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEngine/Entry.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEngine/Entry.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEngine/Invoker.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEngine/Invoker.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEngine/Loop.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEngine/Loop.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEngine/Observer.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEngine/Observer.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEngine/Transition.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/BehaviourEngine/Transition.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Environment.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Environment/Editor.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Environment/Editor/WaypointsGroupEditor.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Environment/Editor/WaypointsGroupEditor.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Environment/Enums.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Environment/Enums/UnitType.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Environment/Enums/UnitType.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Environment/Unit.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Environment/Unit.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Environment/Waypoint.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Environment/Waypoint.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Environment/WaypointsColors.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Environment/WaypointsColors.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Environment/WaypointsGroup.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Environment/WaypointsGroup.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Project.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Project/IntegrationManager.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Project/IntegrationManager.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Repository.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Repository/CoresPool.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Repository/CoresPool.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Repository/JsonFactory.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Repository/JsonFactory.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Repository/JsonObject.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Repository/JsonObject.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Repository/JsonParser.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Repository/JsonParser.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Repository/PathManager.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Repository/PathManager.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Utility.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Utility/AgentGraphics.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Utility/AgentGraphics.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Utility/AudioUtility.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Utility/AudioUtility.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Utility/EliotTime.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Utility/EliotTime.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Utility/FPSAimingRay.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Utility/FPSAimingRay.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Utility/IntegrationDamageHandler.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Utility/IntegrationDamageHandler.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Utility/IntegrationUccHitscan.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Utility/IntegrationUccHitscan.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Utility/NoiseMaker.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Utility/NoiseMaker.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Utility/PlaymakerActions.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Utility/PlaymakerActions.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot/Utility/TransformUtility.cs
-RiotGame/Assets/Game/Eliot AI/Eliot/Utility/TransformUtility.cs.meta
-RiotGame/Assets/Game/Eliot AI/LICENSE.txt
-RiotGame/Assets/Game/Eliot AI/LICENSE.txt.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/walk.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/walk.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Tutorial 3.2/NavMesh.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Tutorial 3.2/NavMesh.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Tutorial 3.2.unity.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Tutorial 3.2.unity
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Tutorial 3.2.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Tutorial 3.2 Finished/NavMesh.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Tutorial 3.2 Finished/NavMesh.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Tutorial 3.2 Finished.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Tutorial 3.1/New Terrain 3.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Tutorial 3.1/New Terrain 3.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Tutorial 3.1/NavMesh.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Tutorial 3.1/NavMesh.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Tutorial 3.1.unity.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Tutorial 3.1.unity
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Tutorial 3.1.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Textures/Grass 00 seamless.jpg.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Textures/Grass 00 seamless.jpg
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Textures.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/run.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/run.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Prefabs/Skeleton.prefab.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Prefabs/Skeleton.prefab
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Prefabs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Finished/Tutorial 3.2 Finished.unity.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Finished/Tutorial 3.2 Finished.unity
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Finished/Tutorial 3.1 Finished.unity.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Finished/Tutorial 3.1 Finished.unity
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3/Finished.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/3.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Tutorial 2/NavMesh.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Tutorial 2/NavMesh.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Tutorial 2.unity.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Tutorial 2.unity
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Tutorial 2.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Prefabs/FX-HealParticles.prefab.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Prefabs/FX-HealParticles.prefab
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Prefabs/FX-FireParticles.prefab.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Prefabs/FX-FireParticles.prefab
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Prefabs/Dragonfire.prefab.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Prefabs/Dragonfire.prefab
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Prefabs/coin.prefab.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Prefabs/coin.prefab
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Prefabs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Materials/Textures/Red_Cross_icon.png.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Materials/Textures/Red_Cross_icon.png
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Materials/Textures/ParticleFirecloud.png.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Materials/Textures/ParticleFirecloud.png
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Materials/Textures.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Materials/HealParticles.mat.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Materials/HealParticles.mat
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Materials/GoldenCoin.mat.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Materials/GoldenCoin.mat
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Materials.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Finished/SkeletonHeal.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Finished/SkeletonHeal.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Finished/SkeletonHeal 1.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Finished/SkeletonHeal 1.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Finished/Skeleton.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Finished/Skeleton.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Finished/melee attack.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Finished/melee attack.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Finished/heal.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Finished/heal.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Finished/Dragon.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Finished/Dragon.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Finished/dragon-fire.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Finished/dragon-fire.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Finished/dragon-fire-DoT.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Finished/dragon-fire-DoT.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Finished/dragon-claws.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Finished/dragon-claws.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Finished.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Animator Controllers/Dragon@Ragdoll.controller.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Animator Controllers/Dragon@Ragdoll.controller
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Animator Controllers/Dragon.controller.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Animator Controllers/Dragon.controller
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2/Animator Controllers.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/2.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/1/Tutorial 1.unity.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/1/Tutorial 1.unity
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/1/Materials/Grid.mat.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/1/Materials/Grid.mat
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/1/Materials.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/1/Finished/New Behaviour.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/1/Finished/New Behaviour.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/1/Finished/Car.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/1/Finished/Car.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/1/Finished/Car 1.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/1/Finished/Car 1.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/1/Finished.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials/1.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials.pdf.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials.pdf
-RiotGame/Assets/Game/Eliot AI/Eliot Tutorials.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Manual.pdf.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Manual.pdf
-RiotGame/Assets/Game/Eliot AI/Eliot Integration.pdf.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Integration.pdf
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Skills/shoot.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Skills/shoot.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Skills/hit.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Skills/hit.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Skills.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Scenes/TDS/NavMesh.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Scenes/TDS/NavMesh.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Scenes/TDS.unity.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Scenes/TDS.unity
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Scenes/TDS.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Scenes.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/WinCanvas.prefab.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/WinCanvas.prefab
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/Sparcles.prefab.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/Sparcles.prefab
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/Player.prefab.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/Player.prefab
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/MenuCanvas.prefab.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/MenuCanvas.prefab
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/man-gun-graphics.prefab.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/man-gun-graphics.prefab
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/man-gun-graphics-cubes.prefab.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/man-gun-graphics-cubes.prefab
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/man-corpse-graphics-cubes.prefab.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/man-corpse-graphics-cubes.prefab
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/man-beat-graphics.prefab.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/man-beat-graphics.prefab
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/man-beat-graphics-cubes.prefab.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/man-beat-graphics-cubes.prefab
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/gun-pickup-graphics.prefab.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/gun-pickup-graphics.prefab
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/Beat-pickup-graphics.prefab.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/Beat-pickup-graphics.prefab
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/HotlineMiamiRocket.prefab.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/HotlineMiamiRocket.prefab
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/GameOverCanvas.prefab.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/GameOverCanvas.prefab
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/EntireGame.prefab.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/EntireGame.prefab
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/Blood Splash.prefab.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/Blood Splash.prefab
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures/ShootSparkles.mat.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures/ShootSparkles.mat
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures/map.jpg.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures/map.jpg
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures/gun-pickup.png.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures/gun-pickup.png
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures/ButtonResetSprite.png.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures/ButtonResetSprite.png
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures/blood_PNG6088.png.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures/blood_PNG6088.png
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-gun.mat.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-gun.mat
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-corpse.mat.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-corpse.mat
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-collider.mat.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-collider.mat
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-collider 2.mat.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-collider 2.mat
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-collider 1.mat.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-collider 1.mat
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-blood.mat.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-blood.mat
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-beat.mat.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-beat.mat
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/gun-pickup.mat.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/gun-pickup.mat
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/gun-collider.mat.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/gun-collider.mat
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Collider.mat.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Collider.mat
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Bullet.mat.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Bullet.mat
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/blood_PNG6088.mat.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/blood_PNG6088.mat
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/blood.mat.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/blood.mat
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/beat-pickup.mat.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/beat-pickup.mat
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/beat-hold.mat.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/beat-hold.mat
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/beat-collider.mat.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/beat-collider.mat
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/tds_WinController.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/tds_WinController.cs
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/tds_Shooter.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/tds_Shooter.cs
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/PlayerStats.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/PlayerStats.cs
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/PlayerMovementController.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/PlayerMovementController.cs
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/PlayerCameraController.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/PlayerCameraController.cs
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/GameController.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/GameController.cs
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/Blooder.cs.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/Blooder.cs
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Code.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Behaviours/StandingSoldier.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Behaviours/StandingSoldier.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Behaviours/SoldierMeele.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Behaviours/SoldierMeele.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Behaviours/Soldier.asset.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Behaviours/Soldier.asset
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Behaviours.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Audio/shoot sound.ogg.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Audio/shoot sound.ogg
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Audio/hit sound.ogg.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Audio/hit sound.ogg
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Audio/[No Copyright Music] Synthwave Retro Electro EDM (Copyright Free) Retro Synthwave 80's Music.mp3.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Audio/[No Copyright Music] Synthwave Retro Electro EDM (Copyright Free) Retro Synthwave 80's Music.mp3
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter/Audio.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects/Top Down Shooter.meta
-RiotGame/Assets/Game/Eliot AI/Eliot Example Projects.meta
-RiotGame/Assets/Game/Eliot AI/changelog.cs.meta
-RiotGame/Assets/Game/Eliot AI/changelog.cs
-RiotGame/Assets/Game/Eliot AI.meta
+RiotGame/Assets/Eliot AI/Eliot.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/ActionInterfaces.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/ActionInterfaces/InventoryActionInterface.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/ActionInterfaces/InventoryActionInterface.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/ActionInterfaces/MotionActionInterface.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/ActionInterfaces/MotionActionInterface.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/AgentAnimation.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/AgentAnimation.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/AgentFunctions.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/AgentFunctions.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/AnimatorParameters.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/AnimatorParameters.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces/GeneralConditionInterface.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces/GeneralConditionInterface.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces/InventoryConditionInterface.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces/InventoryConditionInterface.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces/MotionConditionInterface.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces/MotionConditionInterface.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces/PerceptionConditionInterface.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces/PerceptionConditionInterface.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces/ResourcesConditionInterface.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/ConditionIntarfaces/ResourcesConditionInterface.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Death.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Death.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Editor.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Enums.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Enums/AnimationMode.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Enums/AnimationMode.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Enums/AnimationState.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Enums/AnimationState.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Enums/InitSkillBy.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Enums/InitSkillBy.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Enums/MotionEngine.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Enums/MotionEngine.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Enums/MotionState.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Enums/MotionState.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Enums/SkillState.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Enums/SkillState.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/IMotionEngine.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/IMotionEngine.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/IncludeInBehaviour.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/IncludeInBehaviour.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Interfaces.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Interfaces/ActionInterface.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Interfaces/ActionInterface.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Interfaces/ConditionInterface.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Interfaces/ConditionInterface.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/LegacyAnimationClips.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/LegacyAnimationClips.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Memory.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Memory.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Motion.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Motion.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/MotionEngines.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/MotionEngines/AstarMotionEngine.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/MotionEngines/AstarMotionEngine.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/MotionEngines/NavMeshMotionEngine.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/MotionEngines/NavMeshMotionEngine.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/MotionEngines/TurretMotionEngine.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/MotionEngines/TurretMotionEngine.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Perception.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Perception.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Projectile.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Projectile.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/StandardActions.meta
+# RiotGame/Assets/Eliot AI/Eliot/AgentComponents/StandardActions/StandardInventoryActionInterface.cs
+# RiotGame/Assets/Eliot AI/Eliot/AgentComponents/StandardActions/StandardInventoryActionInterface.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/StandardActions/StandardMotionActionInterface.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/StandardActions/StandardMotionActionInterface.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/StandardConditions.meta
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/StandardConditions/StandardMotionConditionInterface.cs
+RiotGame/Assets/Eliot AI/Eliot/AgentComponents/StandardConditions/StandardMotionConditionInterface.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/BehaviourEditorWindow.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/BehaviourEditorWindow.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/Editor.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/Editor/BehaviourEditor.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/Editor/BehaviourEditor.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/Editor/InvokerNodeEditor.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/Editor/InvokerNodeEditor.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/Editor/LoopNodeEditor.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/Editor/LoopNodeEditor.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/Editor/ObserverNodeEditor.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/Editor/ObserverNodeEditor.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/EliotBehaviour.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/EliotBehaviour.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/EntryNode.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/EntryNode.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/Enums.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/Enums/ActionGroup.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/Enums/ActionGroup.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/Enums/ConditionGroup.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/Enums/ConditionGroup.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/EntryWindowStyle.guiskin
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/EntryWindowStyle.guiskin.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/InvokerWindowStyle.guiskin
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/InvokerWindowStyle.guiskin.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/LoopWindowStyle.guiskin
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/LoopWindowStyle.guiskin.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/ObserverWindowStyle.guiskin
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/ObserverWindowStyle.guiskin.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Style.guiskin
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Style.guiskin.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/box.png
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/box.png.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/gamepad.png
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/gamepad.png.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/gamepad_grey.png
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/gamepad_grey.png.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/grid.png
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/grid.png.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/logo_main.png
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/logo_main.png.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/rect.png
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/rect.png.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/rectSelected.png
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/rectSelected.png.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/romb.png
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/romb.png.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/rombSelected.png
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/rombSelected.png.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/spellbook.png
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/GUIStyles/Textures/spellbook.png.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/InvokerNode.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/InvokerNode.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/LoopNode.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/LoopNode.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/Node.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/Node.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/NodesTransition.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/NodesTransition.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/ObserverNode.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEditor/ObserverNode.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEngine.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEngine/BehaviourCore.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEngine/BehaviourCore.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEngine/EliotComponent.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEngine/EliotComponent.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEngine/Entry.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEngine/Entry.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEngine/Invoker.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEngine/Invoker.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEngine/Loop.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEngine/Loop.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEngine/Observer.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEngine/Observer.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEngine/Transition.cs
+RiotGame/Assets/Eliot AI/Eliot/BehaviourEngine/Transition.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Environment.meta
+RiotGame/Assets/Eliot AI/Eliot/Environment/Editor.meta
+RiotGame/Assets/Eliot AI/Eliot/Environment/Editor/WaypointsGroupEditor.cs
+RiotGame/Assets/Eliot AI/Eliot/Environment/Editor/WaypointsGroupEditor.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Environment/Enums.meta
+RiotGame/Assets/Eliot AI/Eliot/Environment/Enums/UnitType.cs
+RiotGame/Assets/Eliot AI/Eliot/Environment/Enums/UnitType.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Environment/Unit.cs
+RiotGame/Assets/Eliot AI/Eliot/Environment/Unit.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Environment/Waypoint.cs
+RiotGame/Assets/Eliot AI/Eliot/Environment/Waypoint.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Environment/WaypointsColors.cs
+RiotGame/Assets/Eliot AI/Eliot/Environment/WaypointsColors.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Environment/WaypointsGroup.cs
+RiotGame/Assets/Eliot AI/Eliot/Environment/WaypointsGroup.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Project.meta
+RiotGame/Assets/Eliot AI/Eliot/Project/IntegrationManager.cs
+RiotGame/Assets/Eliot AI/Eliot/Project/IntegrationManager.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Repository.meta
+RiotGame/Assets/Eliot AI/Eliot/Repository/CoresPool.cs
+RiotGame/Assets/Eliot AI/Eliot/Repository/CoresPool.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Repository/JsonFactory.cs
+RiotGame/Assets/Eliot AI/Eliot/Repository/JsonFactory.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Repository/JsonObject.cs
+RiotGame/Assets/Eliot AI/Eliot/Repository/JsonObject.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Repository/JsonParser.cs
+RiotGame/Assets/Eliot AI/Eliot/Repository/JsonParser.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Repository/PathManager.cs
+RiotGame/Assets/Eliot AI/Eliot/Repository/PathManager.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Utility.meta
+RiotGame/Assets/Eliot AI/Eliot/Utility/AgentGraphics.cs
+RiotGame/Assets/Eliot AI/Eliot/Utility/AgentGraphics.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Utility/AudioUtility.cs
+RiotGame/Assets/Eliot AI/Eliot/Utility/AudioUtility.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Utility/EliotTime.cs
+RiotGame/Assets/Eliot AI/Eliot/Utility/EliotTime.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Utility/FPSAimingRay.cs
+RiotGame/Assets/Eliot AI/Eliot/Utility/FPSAimingRay.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Utility/IntegrationDamageHandler.cs
+RiotGame/Assets/Eliot AI/Eliot/Utility/IntegrationDamageHandler.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Utility/IntegrationUccHitscan.cs
+RiotGame/Assets/Eliot AI/Eliot/Utility/IntegrationUccHitscan.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Utility/NoiseMaker.cs
+RiotGame/Assets/Eliot AI/Eliot/Utility/NoiseMaker.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Utility/PlaymakerActions.cs
+RiotGame/Assets/Eliot AI/Eliot/Utility/PlaymakerActions.cs.meta
+RiotGame/Assets/Eliot AI/Eliot/Utility/TransformUtility.cs
+RiotGame/Assets/Eliot AI/Eliot/Utility/TransformUtility.cs.meta
+RiotGame/Assets/Eliot AI/LICENSE.txt
+RiotGame/Assets/Eliot AI/LICENSE.txt.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/walk.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/walk.asset
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Tutorial 3.2/NavMesh.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Tutorial 3.2/NavMesh.asset
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Tutorial 3.2.unity.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Tutorial 3.2.unity
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Tutorial 3.2.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Tutorial 3.2 Finished/NavMesh.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Tutorial 3.2 Finished/NavMesh.asset
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Tutorial 3.2 Finished.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Tutorial 3.1/New Terrain 3.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Tutorial 3.1/New Terrain 3.asset
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Tutorial 3.1/NavMesh.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Tutorial 3.1/NavMesh.asset
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Tutorial 3.1.unity.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Tutorial 3.1.unity
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Tutorial 3.1.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Textures/Grass 00 seamless.jpg.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Textures/Grass 00 seamless.jpg
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Textures.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/run.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/run.asset
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Prefabs/Skeleton.prefab.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Prefabs/Skeleton.prefab
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Prefabs.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Finished/Tutorial 3.2 Finished.unity.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Finished/Tutorial 3.2 Finished.unity
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Finished/Tutorial 3.1 Finished.unity.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Finished/Tutorial 3.1 Finished.unity
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3/Finished.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/3.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Tutorial 2/NavMesh.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Tutorial 2/NavMesh.asset
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Tutorial 2.unity.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Tutorial 2.unity
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Tutorial 2.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Prefabs/FX-HealParticles.prefab.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Prefabs/FX-HealParticles.prefab
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Prefabs/FX-FireParticles.prefab.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Prefabs/FX-FireParticles.prefab
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Prefabs/Dragonfire.prefab.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Prefabs/Dragonfire.prefab
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Prefabs/coin.prefab.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Prefabs/coin.prefab
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Prefabs.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Materials/Textures/Red_Cross_icon.png.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Materials/Textures/Red_Cross_icon.png
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Materials/Textures/ParticleFirecloud.png.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Materials/Textures/ParticleFirecloud.png
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Materials/Textures.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Materials/HealParticles.mat.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Materials/HealParticles.mat
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Materials/GoldenCoin.mat.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Materials/GoldenCoin.mat
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Materials.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Finished/SkeletonHeal.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Finished/SkeletonHeal.asset
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Finished/SkeletonHeal 1.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Finished/SkeletonHeal 1.asset
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Finished/Skeleton.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Finished/Skeleton.asset
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Finished/melee attack.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Finished/melee attack.asset
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Finished/heal.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Finished/heal.asset
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Finished/Dragon.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Finished/Dragon.asset
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Finished/dragon-fire.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Finished/dragon-fire.asset
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Finished/dragon-fire-DoT.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Finished/dragon-fire-DoT.asset
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Finished/dragon-claws.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Finished/dragon-claws.asset
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Finished.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Animator Controllers/Dragon@Ragdoll.controller.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Animator Controllers/Dragon@Ragdoll.controller
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Animator Controllers/Dragon.controller.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Animator Controllers/Dragon.controller
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2/Animator Controllers.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/2.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/1/Tutorial 1.unity.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/1/Tutorial 1.unity
+RiotGame/Assets/Eliot AI/Eliot Tutorials/1/Materials/Grid.mat.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/1/Materials/Grid.mat
+RiotGame/Assets/Eliot AI/Eliot Tutorials/1/Materials.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/1/Finished/New Behaviour.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/1/Finished/New Behaviour.asset
+RiotGame/Assets/Eliot AI/Eliot Tutorials/1/Finished/Car.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/1/Finished/Car.asset
+RiotGame/Assets/Eliot AI/Eliot Tutorials/1/Finished/Car 1.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/1/Finished/Car 1.asset
+RiotGame/Assets/Eliot AI/Eliot Tutorials/1/Finished.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials/1.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials.pdf.meta
+RiotGame/Assets/Eliot AI/Eliot Tutorials.pdf
+RiotGame/Assets/Eliot AI/Eliot Tutorials.meta
+RiotGame/Assets/Eliot AI/Eliot Manual.pdf.meta
+RiotGame/Assets/Eliot AI/Eliot Manual.pdf
+RiotGame/Assets/Eliot AI/Eliot Integration.pdf.meta
+RiotGame/Assets/Eliot AI/Eliot Integration.pdf
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Skills/shoot.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Skills/shoot.asset
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Skills/hit.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Skills/hit.asset
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Skills.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Scenes/TDS/NavMesh.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Scenes/TDS/NavMesh.asset
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Scenes/TDS.unity.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Scenes/TDS.unity
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Scenes/TDS.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Scenes.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/WinCanvas.prefab.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/WinCanvas.prefab
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/Sparcles.prefab.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/Sparcles.prefab
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/Player.prefab.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/Player.prefab
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/MenuCanvas.prefab.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/MenuCanvas.prefab
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/man-gun-graphics.prefab.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/man-gun-graphics.prefab
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/man-gun-graphics-cubes.prefab.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/man-gun-graphics-cubes.prefab
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/man-corpse-graphics-cubes.prefab.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/man-corpse-graphics-cubes.prefab
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/man-beat-graphics.prefab.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/man-beat-graphics.prefab
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/man-beat-graphics-cubes.prefab.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/man-beat-graphics-cubes.prefab
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/gun-pickup-graphics.prefab.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/gun-pickup-graphics.prefab
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/Beat-pickup-graphics.prefab.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics/Beat-pickup-graphics.prefab
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/ManGraphics.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/HotlineMiamiRocket.prefab.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/HotlineMiamiRocket.prefab
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/GameOverCanvas.prefab.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/GameOverCanvas.prefab
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/EntireGame.prefab.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/EntireGame.prefab
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/Blood Splash.prefab.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs/Blood Splash.prefab
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Prefabs.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures/ShootSparkles.mat.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures/ShootSparkles.mat
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures/map.jpg.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures/map.jpg
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures/gun-pickup.png.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures/gun-pickup.png
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures/ButtonResetSprite.png.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures/ButtonResetSprite.png
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures/blood_PNG6088.png.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures/blood_PNG6088.png
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Textures.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-gun.mat.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-gun.mat
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-corpse.mat.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-corpse.mat
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-collider.mat.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-collider.mat
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-collider 2.mat.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-collider 2.mat
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-collider 1.mat.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-collider 1.mat
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-blood.mat.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-blood.mat
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-beat.mat.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/man-beat.mat
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/gun-pickup.mat.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/gun-pickup.mat
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/gun-collider.mat.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/gun-collider.mat
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Collider.mat.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Collider.mat
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Bullet.mat.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/Bullet.mat
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/blood_PNG6088.mat.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/blood_PNG6088.mat
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/blood.mat.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/blood.mat
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/beat-pickup.mat.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/beat-pickup.mat
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/beat-hold.mat.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/beat-hold.mat
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/beat-collider.mat.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials/beat-collider.mat
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Materials.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/tds_WinController.cs.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/tds_WinController.cs
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/tds_Shooter.cs.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/tds_Shooter.cs
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/PlayerStats.cs.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/PlayerStats.cs
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/PlayerMovementController.cs.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/PlayerMovementController.cs
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/PlayerCameraController.cs.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/PlayerCameraController.cs
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/GameController.cs.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/GameController.cs
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/Blooder.cs.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Code/Blooder.cs
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Code.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Behaviours/StandingSoldier.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Behaviours/StandingSoldier.asset
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Behaviours/SoldierMeele.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Behaviours/SoldierMeele.asset
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Behaviours/Soldier.asset.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Behaviours/Soldier.asset
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Behaviours.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Audio/shoot sound.ogg.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Audio/shoot sound.ogg
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Audio/hit sound.ogg.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Audio/hit sound.ogg
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Audio/[No Copyright Music] Synthwave Retro Electro EDM (Copyright Free) Retro Synthwave 80's Music.mp3.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Audio/[No Copyright Music] Synthwave Retro Electro EDM (Copyright Free) Retro Synthwave 80's Music.mp3
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Audio.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects.meta
+RiotGame/Assets/Eliot AI/changelog.cs.meta
+RiotGame/Assets/Eliot AI/changelog.cs
+RiotGame/Assets/Eliot AI.meta
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Audio/[No Copyright Music] Synthwave Retro Electro EDM (Copyright Free) Retro Synthwave 80's Music.mp3
+RiotGame/Assets/Eliot AI/Eliot Example Projects/Top Down Shooter/Audio/[No Copyright Music] Synthwave Retro Electro EDM (Copyright Free) Retro Synthwave 80's Music.mp3.meta
