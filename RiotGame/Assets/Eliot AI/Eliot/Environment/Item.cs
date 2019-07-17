@@ -97,7 +97,7 @@ namespace Eliot.Environment
 		/// Inventory that the Item is currently in. None if the Item is outside the Inventory.
 		private Inventory _currentInventory;
 
-
+        //fry
         //The previous behaviour
         private EliotBehaviour _previousBehaviour;
 
