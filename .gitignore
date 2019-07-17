@@ -118,8 +118,8 @@ RiotGame/Assets/Eliot AI/Eliot/AgentComponents/MotionEngines/TurretMotionEngine.
 RiotGame/Assets/Eliot AI/Eliot/AgentComponents/MotionEngines/TurretMotionEngine.cs.meta
 RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Perception.cs
 RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Perception.cs.meta
-RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Projectile.cs
-RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Projectile.cs.meta
+#RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Projectile.cs
+#RiotGame/Assets/Eliot AI/Eliot/AgentComponents/Projectile.cs.meta
 RiotGame/Assets/Eliot AI/Eliot/AgentComponents/StandardActions.meta
 # RiotGame/Assets/Eliot AI/Eliot/AgentComponents/StandardActions/StandardInventoryActionInterface.cs
 # RiotGame/Assets/Eliot AI/Eliot/AgentComponents/StandardActions/StandardInventoryActionInterface.cs.meta
