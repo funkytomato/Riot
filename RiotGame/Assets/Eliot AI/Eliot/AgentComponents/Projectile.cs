@@ -79,6 +79,8 @@ namespace Eliot.AgentComponents
 				var newDir = Vector3.RotateTowards(transform.forward, targetDir, step, 0.0f);
 				transform.rotation = Quaternion.LookRotation(newDir);
 			}
+
+            //Vector3 startPosition = transform.forward + new Vector3(0.0f, 2.0f, 0.0f);
 			transform.position += transform.forward * _speed;
 			if(Time.time >= _initTime + _lifeTime) Destroy(gameObject);
 		}
@@ -90,17 +92,10 @@ namespace Eliot.AgentComponents
 		private void OnTriggerEnter(Collider other)
 		{
 
-            //If collision is with owner, ignore
-
-            Debug.Log("other: " + other.gameObject.GetComponent<Agent>() + "tag: " + other.gameObject.tag);
-            Debug.Log("owner: " + _owner);
-
-            //if ((other.gameObject.GetComponent<Agent>() == _owner) ||
-            //    (other.gameObject.GetComponent<Agent>() == null) ||
-            //        (other.gameObject.tag == "Terrain")) return;
-
-
-            if ((other.gameObject.GetComponent<Agent>() == null) && (other.gameObject.GetComponent<Agent>() == _owner)) return;
+            //If collision has no agent, ignore
+            if ((other.gameObject.GetComponent<Agent>() == null) ||
+                (other.gameObject.GetComponent<Agent>() == _owner)) return;
+                    
 
             var agent = other.gameObject.GetComponent<Agent>();
 			
@@ -129,12 +124,12 @@ namespace Eliot.AgentComponents
 				}
 				Destroy(gameObject);
 			}
-			
-			if(!agent && (other.gameObject.GetComponent<Unit>() && (other.gameObject.GetComponent<Unit>().Type != UnitType.Projectile)))
-				Destroy(gameObject);
-			
-			if(_destroyOnAnyCollision)
-				Destroy(gameObject);
-		}
+
+            if (!agent && (other.gameObject.GetComponent<Unit>() && (other.gameObject.GetComponent<Unit>().Type != UnitType.Projectile)))
+                Destroy(gameObject);
+
+            if (_destroyOnAnyCollision)
+                Destroy(gameObject);
+        }
 	}
 }

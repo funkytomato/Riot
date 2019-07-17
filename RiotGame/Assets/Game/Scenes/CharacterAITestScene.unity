@@ -7923,7 +7923,7 @@ Transform:
   - {fileID: 1522622010}
   - {fileID: 1886566458}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &822218517
 GameObject:
@@ -16190,7 +16190,7 @@ GameObject:
   - component: {fileID: 1497787905}
   m_Layer: 0
   m_Name: Thug
-  m_TagString: Untagged
+  m_TagString: Thug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16511,8 +16511,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1497787895}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.427802, y: -1.9749758, z: 2.2}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 9.16, y: -1.942, z: 5.53}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 484186604}
@@ -20647,7 +20647,7 @@ GameObject:
   - component: {fileID: 1886566449}
   m_Layer: 0
   m_Name: Police
-  m_TagString: Untagged
+  m_TagString: Police
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20990,6 +20990,7 @@ Transform:
   - {fileID: 1810969737}
   - {fileID: 1949359611}
   - {fileID: 1967700852}
+  - {fileID: 2079767869}
   m_Father: {fileID: 816541319}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -23413,11 +23414,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2079767866}
   m_LocalRotation: {x: -0, y: 0.98195875, z: -0.18909544, w: 0}
-  m_LocalPosition: {x: 3.13, y: 8.72, z: 24.64}
+  m_LocalPosition: {x: -0.98, y: 1.97, z: 4.13}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_Father: {fileID: 1886566458}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 21.8, y: 180, z: 0}
 --- !u!1 &2097666828
 GameObject:
@@ -24233,5 +24234,5 @@ Transform:
   - {fileID: 811906118}
   - {fileID: 2052730076}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

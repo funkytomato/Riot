@@ -55,7 +55,7 @@ MonoBehaviour:
   _loadingMessage: Throw
   _executingMessage: 
   _onApplyFX: {fileID: 0}
-  _onApplyFXOnTarget: {fileID: 117628, guid: 1c6cf70a4666e5a40ba4bafbc8947b6a, type: 3}
+  _onApplyFXOnTarget: {fileID: 0}
   _makeChildOfTarget: 1
   _onApplyMessageToTarget: TakeDamage
   _passPowerToTarget: 0

@@ -7,6 +7,8 @@ TagManager:
   - ClingPoint
   - RightHand
   - Terrain
+  - Thug
+  - Police
   layers:
   - Default
   - TransparentFX
