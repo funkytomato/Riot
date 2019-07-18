@@ -135,13 +135,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 7705722218142353471}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2b06897a977d96489494bfbba1018a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 39b8b39b6187242549f2b93ffaf575f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _canAffectEnemies: 1
   _canAffectFriends: 1
   _minDamage: 0
-  _maxDamage: 10
+  _maxDamage: 0
   _speed: 1
   _lifeTime: 5
   _chaseTarget: 0
@@ -149,6 +149,6 @@ MonoBehaviour:
   _detachChildren: 0
   _destroyOnAnyCollision: 0
   _sendDamageMessage: 1
-  _damageMethodName: TakeDamage
+  _damageMethodName: Damage
   _messages: []
-  _skill: {fileID: 11400000, guid: 146cb937a9948470f85a64a79b228030, type: 2}
+  _skill: {fileID: 0}

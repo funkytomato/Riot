@@ -215,7 +215,7 @@ MonoBehaviour:
   _detachChildren: 0
   _destroyOnAnyCollision: 1
   _sendDamageMessage: 1
-  _damageMethodName: TakeDamage
+  _damageMethodName: Damage
   _messages: []
   _skill: {fileID: 11400000, guid: f1175f889c5ea489d972fcf3e41c7b16, type: 2}
 --- !u!114 &-4875896610126898932

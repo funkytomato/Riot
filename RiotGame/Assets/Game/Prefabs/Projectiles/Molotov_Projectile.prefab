@@ -197,12 +197,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6832267492995109644}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: abf8292b9189c4293bceb200520eb808, type: 3}
+  m_Script: {fileID: 11500000, guid: 39b8b39b6187242549f2b93ffaf575f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isTriggered: 0
-  m_GrenadeRange: 30
-  m_Gravity: -9.80665
   _canAffectEnemies: 1
   _canAffectFriends: 1
   _minDamage: 0
