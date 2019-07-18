@@ -92,7 +92,7 @@ namespace Eliot.AgentComponents
 		private void OnTriggerEnter(Collider other)
 		{
 
-            //If collision has no agent, ignore
+            //If collision has no agent, or is self. ignore
             if ((other.gameObject.GetComponent<Agent>() == null) ||
                 (other.gameObject.GetComponent<Agent>() == _owner)) return;
                     
@@ -115,15 +115,15 @@ namespace Eliot.AgentComponents
 				else agent.Resources.Damage(damage);
 			}
 
-			if (agent && !agent.Equals(_owner))
-			{
-				if (_detachChildren)
-				{
-					foreach (Transform child in transform)
-						child.parent = null;
-				}
-				Destroy(gameObject);
-			}
+            if (agent && !agent.Equals(_owner))
+            {
+                if (_detachChildren)
+                {
+                    foreach (Transform child in transform)
+                        child.parent = null;
+                }
+                Destroy(gameObject);
+            }
 
             if (!agent && (other.gameObject.GetComponent<Unit>() && (other.gameObject.GetComponent<Unit>().Type != UnitType.Projectile)))
                 Destroy(gameObject);
