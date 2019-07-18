@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: -4875896610126898932}
   - component: {fileID: 8031173509909199204}
   - component: {fileID: -2477916207027616313}
-  - component: {fileID: -5918630420665360846}
+  - component: {fileID: -249920072611969951}
   m_Layer: 0
   m_Name: Molotov_Projectile_New
   m_TagString: Untagged
@@ -261,10 +261,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ExplosionPrefab: {fileID: 196382, guid: d71f149ba70d36944b1e09268b68788b, type: 3}
-  ExplosionAudioClip: {fileID: 0}
+  ExplosionAudioClip: {fileID: 8300000, guid: 45284a80e63a1461ab17d66f2d98ae0e, type: 3}
   EffectsPrefab: {fileID: 146424, guid: 5254f1d4706b70a43a126292a062a4cf, type: 3}
-  EffectsAudioClip: {fileID: 0}
---- !u!82 &-5918630420665360846
+  EffectsAudioClip: {fileID: 8300000, guid: 2e4463610d60eae4e88c3ec2d7a45b34, type: 3}
+--- !u!82 &-249920072611969951
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
