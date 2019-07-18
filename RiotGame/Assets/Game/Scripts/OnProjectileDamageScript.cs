@@ -8,7 +8,7 @@ using Eliot.AgentComponents;
 
 public class OnProjectileDamageScript : MonoBehaviour
 {
-    AudioSource audioSource;
+    protected AudioSource audioSource;
 
 
     //Initial impact explosion
@@ -22,7 +22,7 @@ public class OnProjectileDamageScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //audioSource = gameObject.GetComponent<AudioSource>();
+        audioSource = gameObject.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -37,31 +37,51 @@ public class OnProjectileDamageScript : MonoBehaviour
 
         Debug.Log("OnProjectileDamageScript: other.tag: " + other.gameObject.tag);
 
-        audioSource = other.gameObject.GetComponent<AudioSource>();
-
         if ((other.gameObject.GetComponent<Agent>() == null) ||
             (other.gameObject.tag == "Thug")) return;
-
 
         //Check their is an explosion prefab set
         if (ExplosionPrefab != null)
         {
-            Instantiate(ExplosionPrefab, other.transform.position, other.transform.rotation);
+            //Create an empty gameobject for impact explosion and audio creation
+            GameObject explosion = Instantiate(ExplosionPrefab, other.transform.position, other.transform.rotation) as GameObject;
+
+            //If Explosion audio clip is loaded, play it
             if (ExplosionAudioClip != null)
             {
                 if (!audioSource.isPlaying)
                 {
-                    audioSource.clip = ExplosionAudioClip;
-                    audioSource.Play();
+                    AudioSource.PlayClipAtPoint(ExplosionAudioClip, transform.position);
                 }
+            }
+
+            //Destroy the explosion
+            if (explosion != null)
+            {
+                Destroy(explosion, 5.0f);
             }
         }
 
         //Apply effects if set to target
         if (EffectsPrefab != null)
         {
-            Instantiate(EffectsPrefab, other.transform.position, other.transform.rotation);
-            //audioSource.PlayOneShot(EffectsSoundPrefab, 1.0F);
+            GameObject effects = Instantiate(EffectsPrefab, other.transform.position, other.transform.rotation) as GameObject;
+            effects.transform.parent = other.gameObject.transform;
+
+            //If Effects audio clip is loaded, play it
+            if (EffectsAudioClip != null)
+            {
+                if (!audioSource.isPlaying)
+                {
+                    AudioSource.PlayClipAtPoint(EffectsAudioClip, transform.position);
+                }
+            }
+
+            //Destroy the effects
+            if (effects != null)
+            {
+                Destroy(effects, 5.0f);
+            }
         }
     }
 }
