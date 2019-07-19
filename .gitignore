@@ -4,6 +4,8 @@ RiotGame/[Oo]bj/
 RiotGame/[Bb]uild/
 RiotGame/[Bb]uilds/
 RiotGame/Assets/AssetStoreTools*
+RiotGame/Assets/Editor Default Resources
+RiotGame/Assets/Gizmos
 
 # Visual Studio cache directory
 .vs/
